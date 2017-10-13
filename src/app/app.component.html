@@ -1,7 +1,7 @@
 
 <header>
   <div class="image">
-    <!--<img src="img/header1.png" alt="header">-->
+    <img src="/src/assets/img/header1.png" alt="header">
   </div>
   <div class="text-over">
     <div class="menu">
@@ -29,13 +29,13 @@
 <div class="main-content">
   <div class="about" id="about">
     <div class="photo">
-      <!--<img src="img/profile-img.jpg" alt="profile-img" class="profile-photo">-->
+      <img src="/src/assets/img/profile-img.jpg" alt="profile-img" class="profile-photo">
     </div>
     <div class="name">Kateryna Dubinina</div>
     <div class="position default-text">front-end developer</div>
     <div class="location">
       <div class="icon">
-        <!--<img src="icons/location.png" alt="">-->
+        <img src="/src/assets/icons/location.png" alt="">
       </div>
       <div class="place default-text">In Kyiv, Ukraine</div>
     </div>
@@ -46,7 +46,7 @@
     <div class="propositions">
       <div class="proposition" *ngFor="let proposition of propositions">
         <div class="circle animated" animateOnScroll animationName="fadeIn">
-          <!--<img class="icon" [src]="'../icons/'+proposition.icon" alt="">-->
+          <img class="icon" [src]="'/src/assets/icons/'+proposition.icon" alt="">
         </div>
         <div class="description">
           <div class="proposition-title">{{proposition.title}}</div>
@@ -71,7 +71,7 @@
             <div class="extra-description" [innerHTML]="project.extraDescription"></div>
             <div class="done" [innerHTML]="project.done"></div>
             <div class="technologies">
-              <!--<img class="technology" *ngFor="let technology of project.technologies" [src]="'../icons/'+technology.icon+'.png'" alt="" [title]=technology.title>-->
+              <img class="technology" *ngFor="let technology of project.technologies" [src]="'/src/assets/icons/'+technology.icon+'.png'" alt="" [title]=technology.title>
             </div>
             <div class="click"><a [href]=project.link target="_blank">Click to follow the link</a></div>
           </div>
@@ -140,7 +140,7 @@
         <div class="proposition" *ngFor="let contact of contacts">
           <a [href]=contact.link class="social-btn">
             <div class="circle">
-              <!--<img class="icon" [src]="'../icons/'+contact.icon" alt="">-->
+              <img class="icon" [src]="'/src/assets/icons/'+contact.icon" [alt]="contact.icon">
             </div>
           </a>
         </div>
