@@ -26,8 +26,8 @@
     </div>
   </div>
 </header>
-<div class="main-content">
-  <div class="about" id="about">
+<div class="main-content container">
+  <div class="about animate" id="about">
     <div class="photo">
       <img src="/src/assets/img/profile-img.jpg" alt="profile-img" class="profile-photo">
     </div>
@@ -40,12 +40,12 @@
       <div class="place default-text">In Kyiv, Ukraine</div>
     </div>
   </div>
-  <div class="what-i-do" id="what-i-do">
+  <div class="what-i-do container" id="what-i-do">
     <div class="title">What I do</div>
     <div class="text default-text">There are many variations of passages of Lorem Ipsum are many variations of passages of Lorem Ipsum.</div>
     <div class="propositions">
-      <div class="proposition" *ngFor="let proposition of propositions">
-        <div class="circle animated" animateOnScroll animationName="fadeIn">
+      <div class="proposition animated" *ngFor="let proposition of propositions"  animateOnScroll animationName="slideDown">
+        <div class="circle">
           <img class="icon" [src]="'/src/assets/icons/'+proposition.icon" alt="">
         </div>
         <div class="description">

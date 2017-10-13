@@ -6,25 +6,20 @@ import { AppComponent } from './app.component';
 
 // import third-party modules
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
-
-/** Components */
-
-@Component({
-  selector: 'my-app',
-  template: ``
-})
-export class App { }
+import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-    Ng2PageScrollModule
+    Ng2PageScrollModule,
+    AnimateOnScrollModule.forRoot()
   ],
   declarations: [
     AppComponent
   ],
+  providers: [],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
