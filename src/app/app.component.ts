@@ -2,6 +2,11 @@ import { Component } from '@angular/core';
 
 import '../assets/styles/normalize.css';
 import '../assets/styles/styles.css';
+import '../assets/img/header1.png';
+import '../assets/img/crazyfatburn.png';
+import '../assets/img/kortx.png';
+import '../assets/img/leaflux.png';
+import '../assets/img/yarandin.png';
 
 @Component({
   selector: 'my-app',
