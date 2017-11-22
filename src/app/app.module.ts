@@ -23,3 +23,4 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
+

@@ -121,7 +121,7 @@ export class AppComponent  {
           icon: 'gulp'
         }
       ],
-      link: 'http://alahno.dev2.yarandin.com/'
+      link: 'http://leafluxgroup.com/'
     },
     {
       class: 'four',
