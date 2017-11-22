@@ -8,6 +8,22 @@ import '../assets/img/kortx.png';
 import '../assets/img/leaflux.png';
 import '../assets/img/yarandin.png';
 
+import '../assets/icons/angular.png';
+import '../assets/icons/bootstrap.png';
+import '../assets/icons/browser.png';
+import '../assets/icons/devices.png';
+import '../assets/icons/email.png';
+import '../assets/icons/facebook.png';
+import '../assets/icons/gulp.png';
+import '../assets/icons/html.png';
+import '../assets/icons/light-bulb.png';
+import '../assets/icons/linkedin.png';
+import '../assets/icons/location.png';
+import '../assets/icons/sass.png';
+import '../assets/icons/scss.png';
+import '../assets/icons/search-1.png';
+import '../assets/icons/skype.png';
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
