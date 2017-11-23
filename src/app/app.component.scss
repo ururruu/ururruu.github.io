@@ -413,7 +413,7 @@ header {
 
       }
       .one {
-        background-image: url(/src/assets/img/kortx.png);
+        background-image: url('/src/assets/img/kortx.png');
         border: 1px solid #443bd7;
         &:hover {
           box-shadow: inset 0 0 0 210px #443bd7;
@@ -433,7 +433,7 @@ header {
         @include tablet {
           grid-column: 1 / 3;
           grid-row: 1/3;
-          background-image: url(/src/assets/img/kortx.png);
+          background-image: url('/src/assets/img/kortx.png');
           border: 1px solid #443bd7;
           &:hover {
             box-shadow: inset 0 0 0 210px #443bd7;
@@ -444,7 +444,7 @@ header {
         }
       }
       .two {
-        background-image: url(/src/assets/img/crazyfatburn.png);
+        background-image: url('/src/assets/img/crazyfatburn.png');
         border: 1px solid $text-blue;
         &:hover {
           box-shadow: inset 0 0 0 210px $text-blue;
@@ -479,7 +479,7 @@ header {
         }
       }
       .three {
-        background-image: url(/src/assets/img/leaflux.png);
+        background-image: url('/src/assets/img/leaflux.png');
         background-size: 100%;
         border: 1px solid #7ae6c6;
         &:hover {
@@ -560,7 +560,7 @@ header {
 
       }
       .four {
-        background-image: url(/src/assets/img/yarandin.png);
+        background-image: url('/src/assets/img/yarandin.png');
         background-size: 100%;
         border: 1px solid #325ad3;
         &:hover {
