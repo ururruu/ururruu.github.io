@@ -51,7 +51,7 @@ export class AppComponent  {
     }
   ];
   contacts = [
-    {//browser
+    {
       icon: 'linkedin.png',
       link: 'https://www.linkedin.com/in/katya-dubinina-109754104/'
     },
@@ -60,7 +60,8 @@ export class AppComponent  {
       link: 'https://www.facebook.com/katia.dubinina'
     },
     {
-      icon: 'skype.png'
+      icon: 'skype.png',
+      link: 'skype:+380663859546?chat'
     }
   ];
 
