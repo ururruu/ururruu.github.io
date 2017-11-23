@@ -24,6 +24,9 @@ import '../assets/icons/scss.png';
 import '../assets/icons/search-1.png';
 import '../assets/icons/skype.png';
 
+
+import {DomSanitizer} from '@angular/platform-browser';
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
@@ -61,7 +64,7 @@ export class AppComponent  {
     },
     {
       icon: 'skype.png',
-      link: 'skype:+380663859546?chat'
+      link: this.sanitize('skype:nogairuka?chat')
     }
   ];
 
@@ -168,4 +171,10 @@ export class AppComponent  {
     }
 
   ];
+
+  constructor(private sanitizer: DomSanitizer){}
+
+  sanitize(url: string){
+      return this.sanitizer.bypassSecurityTrustUrl(url);
+  }
 }
